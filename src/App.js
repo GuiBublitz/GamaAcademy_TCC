@@ -20,7 +20,7 @@ function App() {
       <Router>
         <Header/>
         <Routes>
-          <Route path="/" element={<Home/>} />
+          <Route path="/TCC/build/" element={<Home/>} />
           <Route path="/quem-somos" element={<QuemSomos/>}/>
           <Route path="/transparencia" element={<Transparencia/>}/>
           <Route path="/contribuicao" element={<EscolhaContribuicao/>}/>
