@@ -20,12 +20,12 @@ function App() {
       <Router>
         <Header/>
         <Routes>
-          <Route exact path="/" element={<Home/>} />
-          <Route path="/quem-somos" element={<QuemSomos/>}/>
-          <Route path="/transparencia" element={<Transparencia/>}/>
-          <Route path="/contribuicao" element={<EscolhaContribuicao/>}/>
-          <Route path="/apoie-uma-causa" element={<ApoieUmaCausa/>}/>
-          <Route path="/nossos-parceiros" element={<NossosParceiros/>}/>
+          <Route exact path="/TCC/build/" element={<Home/>} />
+          <Route path="/TCC/build/quem-somos" element={<QuemSomos/>}/>
+          <Route path="/TCC/build/transparencia" element={<Transparencia/>}/>
+          <Route path="/TCC/build/contribuicao" element={<EscolhaContribuicao/>}/>
+          <Route path="/TCC/build/apoie-uma-causa" element={<ApoieUmaCausa/>}/>
+          <Route path="/TCC/build/nossos-parceiros" element={<NossosParceiros/>}/>
         </Routes>
         <Footer/>
       </Router>

@@ -8,27 +8,27 @@ function Header() {
     const[burgerStatus, setBugerStatus] = useState(false)
     return (
         <Container>
-            <Link to="/"><Logo src="images/givee.svg"/></Link>
+            <Link to="/TCC/build/"><Logo src="images/givee.svg"/></Link>
             <MenuNav>
                 <nav id="default">
-                    <li><a><Link to="/quem-somos">quem somos</Link></a></li>
-                    <li><a><Link to="/transparencia">transparência</Link></a></li>
-                    <li><a><Link to="/nossos-parceiros">parceiros</Link></a></li>
+                    <li><a><Link to="/TCC/build/quem-somos">quem somos</Link></a></li>
+                    <li><a><Link to="/TCC/build/transparencia">transparência</Link></a></li>
+                    <li><a><Link to="/TCC/build/nossos-parceiros">parceiros</Link></a></li>
                     <li><a><Link to="">cadastre sua ONG</Link></a></li>
                 </nav>
                 <NavMob show={burgerStatus}>
                     <CloseWrapper>
                         <CustomClose onClick={()=>setBugerStatus(false)}/>
                     </CloseWrapper>
-                    <li><a><Link to="/quem-somos">quem somos</Link></a></li>
-                    <li><a><Link to="/transparencia">transparência</Link></a></li>
-                    <li><a><Link to="/nossos-parceiros">parceiros</Link></a></li>
+                    <li><a><Link to="/TCC/build/quem-somos">quem somos</Link></a></li>
+                    <li><a><Link to="/TCC/build/transparencia">transparência</Link></a></li>
+                    <li><a><Link to="/TCC/build/nossos-parceiros">parceiros</Link></a></li>
                     <li><a><Link to="">cadastre sua ONG</Link></a></li>
                 </NavMob>
                 <CustomMenu onClick={()=>setBugerStatus(true)}>
                     <CustomMenuIcon/>
                 </CustomMenu>
-                <Link to="/apoie-uma-causa"><Btn>apoie uma causa</Btn></Link>
+                <Link to="/TCC/build/apoie-uma-causa"><Btn>apoie uma causa</Btn></Link>
             </MenuNav>
         </Container>
     )
