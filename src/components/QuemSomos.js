@@ -3,7 +3,8 @@ import styled from 'styled-components'
 
 function QuemSomos() {
     return (
-        <Container>
+        
+        <Container id="quem-somos">
             <QuemSomosContent>
                 <h1>Quem somos</h1>
                 <Grid>
