@@ -23,7 +23,6 @@ export default NossosParceiros
 
 const Container = styled.div`
     width: 100%;
-    padding-top: 60px;
     position: relative;
     &:before{
         background-image: url('images/shapes-parceiros.png');

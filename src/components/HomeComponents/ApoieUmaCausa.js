@@ -42,6 +42,7 @@ export default ApoieUmaCausa
 const Container = styled.div`
     width: 100%;
     padding-top: 60px;
+    padding-bottom: 60px;
     position: relative;
     &:before{
         background-image: url('images/shapes-apoie.png');
