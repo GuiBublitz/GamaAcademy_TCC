@@ -157,4 +157,3 @@ const Img2 = styled(Img1)`
         order: 4;
     }
 `
-
