@@ -20,8 +20,8 @@ function App() {
       <Router>
         <Header/>
         <Routes>
-          <Route path="/TCC/build/index" element={<Home/>} />
-          <Route path="/TCC/build/quem-somos" element={<QuemSomos/>}/>
+          <Route path="/guibublitz.github.io/TCC/build/index" element={<Home/>} />
+          <Route path="/guibublitz.github.io/TCC/build/quem-somos" element={<QuemSomos/>}/>
           <Route path="/transparencia" element={<Transparencia/>}/>
           <Route path="/contribuicao" element={<EscolhaContribuicao/>}/>
           <Route path="/apoie-uma-causa" element={<ApoieUmaCausa/>}/>
