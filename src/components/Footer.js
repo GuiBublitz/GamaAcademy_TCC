@@ -8,7 +8,7 @@ function Footer() {
                 <FooterContent>
                     <GroupArrow>
                         <p>voltar para o topo</p>
-                        <ArrowBtn src="images/ArrowUp.png"/>
+                        <ArrowBtn></ArrowBtn>
                     </GroupArrow>
                     <Grid>
                         <Icon src="images/givee-white.svg"/>
@@ -111,13 +111,17 @@ const GroupArrow = styled.div`
     position: absolute;
     top: -30px;
 `
-const ArrowBtn = styled.img` 
+const ArrowBtn = styled.div` 
+    background-image: url('images/ArrowUp.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
     background-color: #3682B9;
-    padding: 15px;
-    width: 20px;
-    height: 20px;
+    padding: 25px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
-    object-fit: contain;
+    background-size: 40% 20%;
 `
 
 const Grid = styled.div`
