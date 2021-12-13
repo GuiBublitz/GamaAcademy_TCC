@@ -1,24 +1,25 @@
 import React from 'react'
 import styled from 'styled-components'
 import {Link} from "react-router-dom";
+import Fade from 'react-reveal/Fade';
 
 function BemVinde() {
     return (
         <Container>
                 <IntroContent>
-                    <BemVindeContent>
-                        <h1>Bem-vinde a givee</h1>
-                        <h3>Quer ajudar, mas não sabe por onde começar?</h3>
-                        <p>
-                            Aqui na givee você encontra diferentes causas 
-                            que precisam de ajuda. Você doa, e nós direcionamos 
-                            as doações para ONGs cadastradas em nosso projeto
-                        </p>
-                        <GroupButton>
-                            <Link to="/TCC/build/apoie-uma-causa"><BtnCausa>apoie uma causa</BtnCausa></Link>
-                            <BtnOng>cadastre sua ONG</BtnOng>
-                        </GroupButton>
-                    </BemVindeContent>
+                        <BemVindeContent>
+                            <h1>Bem-vinde a givee</h1>
+                            <h3>Quer ajudar, mas não sabe por onde começar?</h3>
+                            <p>
+                                Aqui na givee você encontra diferentes causas 
+                                que precisam de ajuda. Você doa, e nós direcionamos 
+                                as doações para ONGs cadastradas em nosso projeto
+                            </p>
+                            <GroupButton>
+                                <Link to="/TCC/build/apoie-uma-causa"><BtnCausa>apoie uma causa</BtnCausa></Link>
+                                <BtnOng>cadastre sua ONG</BtnOng>
+                            </GroupButton>
+                        </BemVindeContent>
                     <GroupImage>
                         <Border1/>
                         <Img1 src="images/bemvinde1.png"/>

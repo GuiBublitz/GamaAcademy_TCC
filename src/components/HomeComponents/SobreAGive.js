@@ -43,6 +43,7 @@ export default SobreAGive
 
 const Container = styled.div`
     padding-top: 60px;
+    padding-bottom: 60px;
     position: relative;
     &:before{
         background-image: url('images/shapes-sobre.png');
