@@ -92,5 +92,8 @@ const Btn = styled.button`
     &:hover{
         background: #2B6894;
     }
+    @media(max-width: 680px){
+        width: 250px;
+    }
 `
 

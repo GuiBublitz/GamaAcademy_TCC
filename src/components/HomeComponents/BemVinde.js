@@ -81,6 +81,7 @@ const BemVindeContent = styled.div`
         padding-left:25px;
     }
     @media(max-width: 750px){
+        align-items: center;
         width: 100%;
         padding-top: 0px;
         padding-right: 25px;
@@ -93,10 +94,10 @@ const GroupButton = styled.div`
     gap: 25px;
     @media(max-width: 500px){
         gap: 10px;
-    }
-    @media(max-width: 350px){
         flex-direction: column;
         padding-top: 25px;
+    }
+    @media(max-width: 350px){
         align-items: center;
         gap: 10px;
     }
@@ -115,6 +116,9 @@ const BtnCausa = styled.button`
     box-shadow: 0px 0px 20px rgba(235, 127, 49, 0.3);
     &:hover{
         background: rgba(188, 102, 39, 1);
+    }
+    @media(max-width: 500px){
+        width: 250px;
     }
 `
 const BtnOng = styled(BtnCausa)`

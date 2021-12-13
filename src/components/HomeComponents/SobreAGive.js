@@ -71,7 +71,11 @@ const SobreContent = styled.div`
         span{
             color:#3682B9;
         }
+        @media(max-width: 750px){
+            margin-bottom: 0;
+        }
     }
+
 `
 const Grid = styled.div` 
     padding-top: 35px;
@@ -87,11 +91,15 @@ const Grid = styled.div`
     @media(max-width: 650px){
         flex-direction: column;   
     }
+    @media(max-width: 400px){
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 `
 const Img1 = styled.img` 
     width: 50%;
     object-fit: contain;
-    @media(max-width: 650px){
+    @media(max-width: 680px){
         flex-direction: column;
         width: 100%;
         order: 2;
@@ -116,11 +124,14 @@ const Proposito = styled.div `
     @media(max-width: 1050px){
         padding: 0 15px;
     }
-    @media(max-width: 650px){
+    @media(max-width: 680px){
         flex-direction: column;
         width: 100%;
         align-items: start;
         order: 1;
+    }
+    @media(max-width: 550px){
+        padding: 0;
     }
 `
 const MaxWidth = styled.div` 
@@ -129,11 +140,21 @@ const MaxWidth = styled.div`
     @media(max-width: 1050px){
         padding: 0 25px;
     }
+    @media(max-width: 680px){
+        max-width:none;
+        h3{
+            margin-bottom: 5px;
+        }
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+    }
 `
 const MaxWidth2 = styled(MaxWidth) ` 
 `
 const Givee = styled(Proposito)`
-    @media(max-width: 650px){
+    @media(max-width: 680px){
         order: 3;
     }
 `
@@ -152,12 +173,15 @@ const Btn = styled.button`
     &:hover{
         background: #2B6894;
     }
-    @media(max-width: 650px){
+    @media(max-width: 680px){
         margin-bottom: 25px;
+    }
+    @media(max-width: 680px){
+        width: 250px;
     }
 `
 const Img2 = styled(Img1)` 
-    @media(max-width: 650px){
+    @media(max-width: 680px){
         order: 4;
     }
 `
