@@ -25,9 +25,9 @@ function Footer() {
                             </nav>
                             <SocialMedias>
                                 <ul>
-                                    <li><a><img src="images/instagram-icon.svg"/></a></li>
-                                    <li><a><img src="images/facebook-icon.svg"/></a></li>
-                                    <li><a><img src="images/linkedin-icon.svg"/></a></li>
+                                    <li><a href="https://www.instagram.com/giveeong/"><img src="images/instagram-icon.svg"/></a></li>
+                                    <li><a href=""><img src="images/facebook-icon.svg"/></a></li>
+                                    <li><a href=""><img src="images/linkedin-icon.svg"/></a></li>
                                 </ul>
                             </SocialMedias>
                         </Institucional>
