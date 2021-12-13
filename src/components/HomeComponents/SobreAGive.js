@@ -81,6 +81,9 @@ const Grid = styled.div`
         padding-left: 25px;
         padding-right: 25px;
     }
+    @media(max-width: 850px){
+        padding-top: 0;
+    }
     @media(max-width: 650px){
         flex-direction: column;   
     }
