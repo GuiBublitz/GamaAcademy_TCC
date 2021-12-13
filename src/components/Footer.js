@@ -54,6 +54,10 @@ const Container = styled.div`
     margin: 0 auto;
     height: 600px;
     z-index: -4;
+    a{
+        text-decoration: none;
+        color: white;
+    }
 `
 const Bg = styled.div`
     position: relative;

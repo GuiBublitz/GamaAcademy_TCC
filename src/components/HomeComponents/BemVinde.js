@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import {Link} from "react-router-dom";
 
 function BemVinde() {
     return (
@@ -14,7 +15,7 @@ function BemVinde() {
                             as doações para ONGs cadastradas em nosso projeto
                         </p>
                         <GroupButton>
-                            <BtnCausa>apoie uma causa</BtnCausa>
+                            <BtnCausa><Link to="/TCC/build/apoie-uma-causa">apoie uma causa</Link></BtnCausa>
                             <BtnOng>cadastre sua ONG</BtnOng>
                         </GroupButton>
                     </BemVindeContent>
