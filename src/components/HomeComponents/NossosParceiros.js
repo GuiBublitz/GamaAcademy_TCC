@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 function NossosParceiros() {
     return (
-        <Container>
+        <Container >
             <ParceirosContent>
                 <h1>Nossos parceiros</h1>
                 <Grid>

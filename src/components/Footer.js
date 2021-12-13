@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import {Link} from "react-router-dom";
 
 function Footer() {
     return (
@@ -8,18 +9,18 @@ function Footer() {
                 <FooterContent>
                     <GroupArrow>
                         <p>voltar para o topo</p>
-                        <ArrowBtn></ArrowBtn>
+                        <a href="#topo"><ArrowBtn></ArrowBtn></a>
                     </GroupArrow>
                     <Grid>
-                        <Icon src="images/givee-white.svg"/>
+                        <Link to="/TCC/build/"><Icon src="images/givee-white.svg"/></Link>
                         <Institucional>
                             <h3>institucional</h3>
                             <nav>
-                                <li><a>quem somos</a></li>
-                                <li><a>transparencia</a></li>
-                                <li><a>parceiros</a></li>
-                                <li><a>apoie</a></li>
-                                <li><a>cadastre sua ONG</a></li>
+                                <li><a><Link to="/TCC/build/quem-somos">quem somos</Link></a></li>
+                                <li><a><Link to="/TCC/build/transparencia">transparência</Link></a></li>
+                                <li><a><Link to="/TCC/build/nossos-parceiros">parceiros</Link></a></li>                  
+                                <li><a><Link to="/TCC/build/apoie-uma-causa">apoie</Link></a></li>
+                                <li><a><Link to="">cadastre sua ONG</Link></a></li>
                             </nav>
                             <SocialMedias>
                                 <ul>
