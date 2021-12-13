@@ -37,6 +37,7 @@ function Header() {
 export default Header
 
 const Container = styled.div`
+    transition: all 250ms;
     position: absolute;
     top: 0;
     right: 0;

@@ -15,7 +15,7 @@ function BemVinde() {
                             as doações para ONGs cadastradas em nosso projeto
                         </p>
                         <GroupButton>
-                            <BtnCausa><Link to="/TCC/build/apoie-uma-causa">apoie uma causa</Link></BtnCausa>
+                            <Link to="/TCC/build/apoie-uma-causa"><BtnCausa>apoie uma causa</BtnCausa></Link>
                             <BtnOng>cadastre sua ONG</BtnOng>
                         </GroupButton>
                     </BemVindeContent>
