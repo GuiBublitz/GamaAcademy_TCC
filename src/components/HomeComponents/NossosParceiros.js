@@ -39,6 +39,7 @@ const Container = styled.div`
 `
 const ParceirosContent = styled.div` 
     width: 100%;
+    padding: 0 25px;
     max-width: 1000px;
     margin: 0 auto;
     h1{
