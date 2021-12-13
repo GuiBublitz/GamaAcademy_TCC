@@ -21,7 +21,7 @@ function Footer() {
                                 <li><a><Link to="/TCC/build/transparencia">transparência</Link></a></li>
                                 <li><a><Link to="/TCC/build/nossos-parceiros">parceiros</Link></a></li>                  
                                 <li><a><Link to="/TCC/build/apoie-uma-causa">apoie</Link></a></li>
-                                <li><a><Link to="">cadastre sua ONG</Link></a></li>
+                                <li><a href="https://forms.gle/Ts4sERmMdiUhHsRZA">cadastre sua ONG</a></li>
                             </nav>
                             <SocialMedias>
                                 <ul>
@@ -128,6 +128,10 @@ const ArrowBtn = styled.div`
     height: 30px;
     border-radius: 50%;
     background-size: 40% 20%;
+    transition: 200ms ease-in-out;
+    &:hover{
+        background-color:   #2B6894;
+    }
 `
 
 const Grid = styled.div`

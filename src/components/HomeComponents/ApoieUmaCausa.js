@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import {Link} from "react-router-dom";
 
 function ApoieUmaCausa() {
     return (
@@ -9,27 +10,27 @@ function ApoieUmaCausa() {
                 <Grid>
                     <Item1>
                         <label>LGBTQIAP+</label>
-                        <Btn>apoiar</Btn>
+                        <Link to="/TCC/build/contribuicao"><Btn>apoiar</Btn></Link>
                     </Item1>
                     <Item2>
                         <label>Causa animal</label>
-                        <Btn>apoiar</Btn>
+                        <Link to="/TCC/build/contribuicao"><Btn>apoiar</Btn></Link>
                     </Item2>
                     <Item3>
                         <label>Pessoas em<br/> situação de rua</label>
-                        <Btn>apoiar</Btn>
+                        <Link to="/TCC/build/contribuicao"><Btn>apoiar</Btn></Link>
                     </Item3>
                     <Item4>
                         <label>Igualdade Racial</label>
-                        <Btn>apoiar</Btn>
+                        <Link to="/TCC/build/contribuicao"><Btn>apoiar</Btn></Link>
                     </Item4>
                     <Item5>
                         <label>Sustentabilidade</label>
-                        <Btn>apoiar</Btn>
+                        <Link to="/TCC/build/contribuicao"><Btn>apoiar</Btn></Link>
                     </Item5>
                     <Item6>
                         <label>Direitos Humanos</label>
-                        <Btn>apoiar</Btn>
+                        <Link to="/TCC/build/contribuicao"><Btn>apoiar</Btn></Link>
                     </Item6>
                 </Grid>
             </ApoieContent>

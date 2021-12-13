@@ -14,7 +14,7 @@ function Header() {
                     <li><a><Link to="/TCC/build/quem-somos">quem somos</Link></a></li>
                     <li><a><Link to="/TCC/build/transparencia">transparência</Link></a></li>
                     <li><a><Link to="/TCC/build/nossos-parceiros">parceiros</Link></a></li>
-                    <li><a><Link to="">cadastre sua ONG</Link></a></li>
+                    <li><a href="https://forms.gle/Ts4sERmMdiUhHsRZA">cadastre sua ONG</a></li>
                 </nav>
                 <NavMob show={burgerStatus}>
                     <CloseWrapper>
@@ -23,7 +23,7 @@ function Header() {
                     <li><a><Link to="/TCC/build/quem-somos">quem somos</Link></a></li>
                     <li><a><Link to="/TCC/build/transparencia">transparência</Link></a></li>
                     <li><a><Link to="/TCC/build/nossos-parceiros">parceiros</Link></a></li>
-                    <li><a><Link to="">cadastre sua ONG</Link></a></li>
+                    <li><a><Link to="https://forms.gle/Ts4sERmMdiUhHsRZA">cadastre sua ONG</Link></a></li>
                 </NavMob>
                 <CustomMenu onClick={()=>setBugerStatus(true)}>
                     <CustomMenuIcon/>
@@ -59,6 +59,10 @@ const MenuNav = styled.div`
     a{
         text-decoration: none;
         color: #102737;
+        transition: 200ms ease-in-out;
+        &:hover{
+            color: #EC873D;
+        }
     }
     display: flex;
     align-items: center;
@@ -118,7 +122,7 @@ const Btn = styled.button`
     background: #EB7F31;
     font-size: 16px;
     font-weight: 700;
-    transition: all 250ms;
+    transition: all 250ms ease-in-out;
     cursor: pointer;
     box-shadow: 0px 0px 20px rgba(235, 127, 49, 0.3);
     &:hover{

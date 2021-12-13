@@ -29,7 +29,7 @@ function SobreAGive() {
                                 às doações recebidas. Seja você uma apoiador,
                                 ou representante de uma ONG, aqui é o seu lugar.
                             </p>
-                            <Btn>cadastre sua ONG</Btn>
+                            <a href="https://forms.gle/Ts4sERmMdiUhHsRZA"><Btn>cadastre sua ONG</Btn></a>
                         </MaxWidth2>
                     </Givee>
                     <Img2 src="images/foto-maos-sobre.png"/>
@@ -167,7 +167,7 @@ const Btn = styled.button`
     background: #3682B9;
     font-size: 16px;
     font-weight: 700;
-    transition: all 200ms;
+    transition: all 200ms ease-in-out;
     cursor: pointer;
     box-shadow: none;
     &:hover{

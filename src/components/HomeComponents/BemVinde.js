@@ -17,7 +17,7 @@ function BemVinde() {
                             </p>
                             <GroupButton>
                                 <Link to="/TCC/build/apoie-uma-causa"><BtnCausa>apoie uma causa</BtnCausa></Link>
-                                <BtnOng>cadastre sua ONG</BtnOng>
+                                <a href="https://forms.gle/Ts4sERmMdiUhHsRZA"><BtnOng>cadastre sua ONG</BtnOng></a>
                             </GroupButton>
                         </BemVindeContent>
                     <GroupImage>
@@ -111,7 +111,7 @@ const BtnCausa = styled.button`
     background: #EB7F31;
     font-size: 16px;
     font-weight: 700;
-    transition: all 200ms;
+    transition: all 200ms ease-in-out;
     cursor: pointer;
     box-shadow: 0px 0px 20px rgba(235, 127, 49, 0.3);
     &:hover{
