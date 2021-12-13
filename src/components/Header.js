@@ -2,32 +2,33 @@ import React,{useState} from 'react'
 import styled from 'styled-components'
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
+import {Link} from "react-router-dom";
 
 function Header() {
     const[burgerStatus, setBugerStatus] = useState(false)
     return (
         <Container>
-            <Logo src="images/givee.svg"/>
+            <Link to="/"><Logo src="images/givee.svg"/></Link>
             <MenuNav>
                 <nav id="default">
-                    <li><a>quem somos</a></li>
-                    <li><a>transparência</a></li>
-                    <li><a>parceiros</a></li>
-                    <li><a>cadastre sua ONG</a></li>
+                    <li><a><Link to="/quem-somos">quem somos</Link></a></li>
+                    <li><a><Link to="/transparencia">transparência</Link></a></li>
+                    <li><a><Link to="/nossos-parceiros">parceiros</Link></a></li>
+                    <li><a><Link to="">cadastre sua ONG</Link></a></li>
                 </nav>
                 <NavMob show={burgerStatus}>
                     <CloseWrapper>
                         <CustomClose onClick={()=>setBugerStatus(false)}/>
                     </CloseWrapper>
-                    <li><a>quem somos</a></li>
-                    <li><a>transparência</a></li>
-                    <li><a>parceiros</a></li>
-                    <li><a>cadastre sua ONG</a></li>
+                    <li><a><Link to="/quem-somos">quem somos</Link></a></li>
+                    <li><a><Link to="/transparencia">transparência</Link></a></li>
+                    <li><a><Link to="/nossos-parceiros">parceiros</Link></a></li>
+                    <li><a><Link to="">cadastre sua ONG</Link></a></li>
                 </NavMob>
                 <CustomMenu onClick={()=>setBugerStatus(true)}>
                     <CustomMenuIcon/>
                 </CustomMenu>
-                <Btn>apoie uma causa</Btn>
+                <Link to="/apoie-uma-causa"><Btn>apoie uma causa</Btn></Link>
             </MenuNav>
         </Container>
     )
@@ -54,6 +55,10 @@ const Logo = styled.img`
     width: 143px;
 `
 const MenuNav = styled.div`
+    a{
+        text-decoration: none;
+        color: #102737;
+    }
     display: flex;
     align-items: center;
     list-style: none;
