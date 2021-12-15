@@ -41,10 +41,8 @@ function App() {
             <Route path="/transparencia" element={<Transparencia/>}/>
             <Route path="/contribuicao" element={<EscolhaContribuicao/>}/>
             <Route path="/apoie-uma-causa" element={<ApoieUmaCausa/>}/>
-            <Route path="/nossos-parceiros" element={<NossosParceiros/>}/>  */}
-         
-
-
+            <Route path="/nossos-parceiros" element={<NossosParceiros/>}/> 
+            */}
         </Routes>
         <Footer/>
       </Router>
