@@ -125,6 +125,7 @@ const BtnOng = styled(BtnCausa)`
     box-shadow: none;
     background: #3682B9;
     transition: all 200ms;
+    display:none ;
     &:hover{
         background: #2B6894;
     }

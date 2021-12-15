@@ -20,10 +20,10 @@ function Header() {
                     <CloseWrapper>
                         <CustomClose onClick={()=>setBugerStatus(false)}/>
                     </CloseWrapper>
-                    <li><a><Link to="/TCC/build/quem-somos">quem somos</Link></a></li>
-                    <li><a><Link to="/TCC/build/transparencia">transparência</Link></a></li>
-                    <li><a><Link to="/TCC/build/nossos-parceiros">parceiros</Link></a></li>
-                    <li><a><Link to="https://forms.gle/Ts4sERmMdiUhHsRZA">cadastre sua ONG</Link></a></li>
+                    <li><a onClick={()=>setBugerStatus(false)}><Link to="/TCC/build/quem-somos">quem somos</Link></a></li>
+                    <li><a onClick={()=>setBugerStatus(false)}><Link to="/TCC/build/transparencia">transparência</Link></a></li>
+                    <li><a onClick={()=>setBugerStatus(false)}><Link to="/TCC/build/nossos-parceiros">parceiros</Link></a></li>
+                    <li><a onClick={()=>setBugerStatus(false)}><Link to="https://forms.gle/Ts4sERmMdiUhHsRZA">cadastre sua ONG</Link></a></li>
                 </NavMob>
                 <CustomMenu onClick={()=>setBugerStatus(true)}>
                     <CustomMenuIcon/>
