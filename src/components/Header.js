@@ -8,27 +8,27 @@ function Header() {
     const[burgerStatus, setBugerStatus] = useState(false)
     return (
         <Container id="topo">
-            <Link to="/TCC/build/"><Logo src="images/givee.svg"/></Link>
+            <Link to="/TCC/docs/"><Logo src="images/givee.svg"/></Link>
             <MenuNav>
                 <nav id="default">
-                    <li><a><Link to="/TCC/build/quem-somos">quem somos</Link></a></li>
-                    <li><a><Link to="/TCC/build/transparencia">transparência</Link></a></li>
-                    <li><a><Link to="/TCC/build/nossos-parceiros">parceiros</Link></a></li>
+                    <li><a><Link to="/TCC/docs/quem-somos">quem somos</Link></a></li>
+                    <li><a><Link to="/TCC/docs/transparencia">transparência</Link></a></li>
+                    <li><a><Link to="/TCC/docs/nossos-parceiros">parceiros</Link></a></li>
                     <li><a href="https://forms.gle/Ts4sERmMdiUhHsRZA">cadastre sua ONG</a></li>
                 </nav>
                 <NavMob show={burgerStatus}>
                     <CloseWrapper>
                         <CustomClose onClick={()=>setBugerStatus(false)}/>
                     </CloseWrapper>
-                    <li><a onClick={()=>setBugerStatus(false)}><Link to="/TCC/build/quem-somos">quem somos</Link></a></li>
-                    <li><a onClick={()=>setBugerStatus(false)}><Link to="/TCC/build/transparencia">transparência</Link></a></li>
-                    <li><a onClick={()=>setBugerStatus(false)}><Link to="/TCC/build/nossos-parceiros">parceiros</Link></a></li>
+                    <li><a onClick={()=>setBugerStatus(false)}><Link to="/TCC/docs/quem-somos">quem somos</Link></a></li>
+                    <li><a onClick={()=>setBugerStatus(false)}><Link to="/TCC/docs/transparencia">transparência</Link></a></li>
+                    <li><a onClick={()=>setBugerStatus(false)}><Link to="/TCC/docs/nossos-parceiros">parceiros</Link></a></li>
                     <li><a onClick={()=>setBugerStatus(false)}><Link to="https://forms.gle/Ts4sERmMdiUhHsRZA">cadastre sua ONG</Link></a></li>
                 </NavMob>
                 <CustomMenu onClick={()=>setBugerStatus(true)}>
                     <CustomMenuIcon/>
                 </CustomMenu>
-                <Link to="/TCC/build/apoie-uma-causa"><Btn>apoie uma causa</Btn></Link>
+                <Link to="/TCC/docs/apoie-uma-causa"><Btn>apoie uma causa</Btn></Link>
             </MenuNav>
         </Container>
     )

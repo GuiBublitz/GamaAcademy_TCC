@@ -10,27 +10,27 @@ function ApoieUmaCausa() {
                 <Grid>
                     <Item1>
                         <label>LGBTQIAP+</label>
-                        <Link to="/TCC/build/contribuicao"><Btn>apoiar</Btn></Link>
+                        <Link to="/TCC/docs/contribuicao"><Btn>apoiar</Btn></Link>
                     </Item1>
                     <Item2>
                         <label>Causa animal</label>
-                        <Link to="/TCC/build/contribuicao"><Btn>apoiar</Btn></Link>
+                        <Link to="/TCC/docs/contribuicao"><Btn>apoiar</Btn></Link>
                     </Item2>
                     <Item3>
                         <label>Pessoas em<br/> situação de rua</label>
-                        <Link to="/TCC/build/contribuicao"><Btn>apoiar</Btn></Link>
+                        <Link to="/TCC/docs/contribuicao"><Btn>apoiar</Btn></Link>
                     </Item3>
                     <Item4>
                         <label>Igualdade Racial</label>
-                        <Link to="/TCC/build/contribuicao"><Btn>apoiar</Btn></Link>
+                        <Link to="/TCC/docs/contribuicao"><Btn>apoiar</Btn></Link>
                     </Item4>
                     <Item5>
                         <label>Sustentabilidade</label>
-                        <Link to="/TCC/build/contribuicao"><Btn>apoiar</Btn></Link>
+                        <Link to="/TCC/docs/contribuicao"><Btn>apoiar</Btn></Link>
                     </Item5>
                     <Item6>
                         <label>Direitos Humanos</label>
-                        <Link to="/TCC/build/contribuicao"><Btn>apoiar</Btn></Link>
+                        <Link to="/TCC/docs/contribuicao"><Btn>apoiar</Btn></Link>
                     </Item6>
                 </Grid>
             </ApoieContent>

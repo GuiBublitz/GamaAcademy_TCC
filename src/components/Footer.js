@@ -13,14 +13,14 @@ function Footer() {
                         <a href="#topo"><ArrowBtn></ArrowBtn></a>
                     </GroupArrow>
                     <Grid>
-                        <Link to="/TCC/build/"><Icon src="images/givee-white.svg"/></Link>
+                        <Link to="/TCC/docs/"><Icon src="images/givee-white.svg"/></Link>
                         <Institucional>
                             <h3>institucional</h3>
                             <nav>
-                                <li><a><Link to="/TCC/build/quem-somos">quem somos</Link></a></li>
-                                <li><a><Link to="/TCC/build/transparencia">transparência</Link></a></li>
-                                <li><a><Link to="/TCC/build/nossos-parceiros">parceiros</Link></a></li>                  
-                                <li><a><Link to="/TCC/build/apoie-uma-causa">apoie</Link></a></li>
+                                <li><a><Link to="/TCC/docs/quem-somos">quem somos</Link></a></li>
+                                <li><a><Link to="/TCC/docs/transparencia">transparência</Link></a></li>
+                                <li><a><Link to="/TCC/docs/nossos-parceiros">parceiros</Link></a></li>                  
+                                <li><a><Link to="/TCC/docs/apoie-uma-causa">apoie</Link></a></li>
                                 <li><a href="https://forms.gle/Ts4sERmMdiUhHsRZA">cadastre sua ONG</a></li>
                             </nav>
                             <SocialMedias>

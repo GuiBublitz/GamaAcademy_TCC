@@ -25,12 +25,12 @@ function App() {
         <Routes>
          
           {/* Rotas para deploy*/}
-          <Route exact path="/TCC/build/" element={<Home/>} />
-          <Route path="/TCC/build/quem-somos" element={<QuemSomos/>}/>
-          <Route path="/TCC/build/transparencia" element={<Transparencia/>}/>
-          <Route path="/TCC/build/contribuicao" element={<EscolhaContribuicao/>}/>
-          <Route path="/TCC/build/apoie-uma-causa" element={<ApoieUmaCausa/>}/>
-          <Route path="/TCC/build/nossos-parceiros" element={<NossosParceiros/>}/> 
+          <Route exact path="/TCC/docs//" element={<Home/>} />
+          <Route path="/TCC/docs//quem-somos" element={<QuemSomos/>}/>
+          <Route path="/TCC/docs//transparencia" element={<Transparencia/>}/>
+          <Route path="/TCC/docs//contribuicao" element={<EscolhaContribuicao/>}/>
+          <Route path="/TCC/docs//apoie-uma-causa" element={<ApoieUmaCausa/>}/>
+          <Route path="/TCC/docs//nossos-parceiros" element={<NossosParceiros/>}/> 
           
          
 
