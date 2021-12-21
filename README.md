@@ -1,4 +1,6 @@
-# <a href="https://giveeorg.github.io/GO/">CLIQUE AQUI PARA ABRIR O PROJETO NO SEU NAVEGADOR</a>
+# <a href="https://giveeorg.github.io/GO/">CLIQUE AQUI PARA ABRIR O PROJETO NO SEU NAVEGADOR</a> 
+# <div align="center">Repositório: <a href="https://github.com/GiveeOrg/GO">CLIQUE AQUI</a></div>
+
 
 <p align="center">
   <img src="https://github.com/scillapinheiro/gama_academy_desafio-1/blob/main/logo-gama-academy.png" width="50%">
