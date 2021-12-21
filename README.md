@@ -18,6 +18,6 @@
   
 </p>
 
-### Neste projeto fui responsável por desenvolver em React o frontend/ Deploy / Consumo API do projeto disponibilizado no figma pela equipe de Hipsters. O resultado final você pode acompanhar pelo link do projeto!
-*Veja também o relatório completo do projeto:<a href="https://granite-room-a96.notion.site/Relat-rio-79553d6f26fb48759f5744388baa7b86"> Clique aqui!</a>
-*Protótipo desenvolvido pela equipe de designers: <a href="https://www.figma.com/file/UCQtCUpEzgPTWMxhe3zfF6/Desafio-Chef%C3%A3o?node-id=23%3A54"> FIGMA Protótipo</a>
+## Neste projeto fui responsável por desenvolver em React o frontend/ Deploy / Consumo API do projeto disponibilizado no figma pela equipe de Hipsters. O resultado final você pode acompanhar pelo link do projeto!
+#### *Veja também o relatório completo do projeto:<a href="https://granite-room-a96.notion.site/Relat-rio-79553d6f26fb48759f5744388baa7b86"> Clique aqui!</a>
+#### *Protótipo desenvolvido pela equipe de designers: <a href="https://www.figma.com/file/UCQtCUpEzgPTWMxhe3zfF6/Desafio-Chef%C3%A3o?node-id=23%3A54"> FIGMA Protótipo.</a>
